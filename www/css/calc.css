@@ -1,0 +1,48 @@
+		.cabecalho{
+			/*max-height: 120px;*/
+		}
+		.cabecalho h1{
+			margin-bottom: 10px;
+			text-align: center;
+			font-size: 24px;
+			margin-top: 10px;
+			font-weight: bold;
+		}
+		.centered{
+			/*padding-top: 50px;*/
+			margin: 8px auto !important;
+			float: none !important;
+		}
+		.logo{
+			width: 100px;
+			height: 100px;
+			background: rgba(242,234,234, .7);
+			border-radius: 50px;
+			border: 3px solid rgba(70,144,192, .9);
+			border: 3px inset rgba(152,178,61, 1);
+			margin: 4px auto !important;
+
+		}
+		.logo p{
+			font-size: 16px;
+			padding-top: 30px;
+			text-align: center;
+		}
+		.footer{
+			position: fixed !important;
+			bottom: 0;
+			width: 100%;
+			clear: both !important;
+		}
+		.footer p{
+			font-size: 16px;
+			padding-top: 10px;
+			text-align: center;
+		}
+
+		/* Fonte */
+
+		@font-face {
+			font-family: "consolass";
+			src: url("../fonts/consolas.ttf");
+		}
