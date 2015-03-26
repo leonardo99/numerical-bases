@@ -7,6 +7,7 @@
 			font-size: 24px;
 			margin-top: 10px;
 			font-weight: bold;
+			font-family: "consolass";
 		}
 		.centered{
 			/*padding-top: 50px;*/
@@ -44,5 +45,5 @@
 
 		@font-face {
 			font-family: "consolass";
-			src: url("../fonts/consolas.ttf");
+			src: url("../fonts/consolas.ttf"), local('font/simpsonfont.ttf');
 		}
