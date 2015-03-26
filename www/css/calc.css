@@ -45,5 +45,5 @@
 
 		@font-face {
 			font-family: "consolass";
-			src: url("../fonts/consolas.ttf"), local('font/simpsonfont.ttf');
+			src: url("fonts/consolas.ttf"), local('fonts/consolas.ttf');
 		}
